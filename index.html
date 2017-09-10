@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/vendors/rangeslider.js-2.3.0/rangeslider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -60,9 +61,24 @@
                             An online P2P lending marketplace that helps borrowers avail instant, short-term cash loans ranging from <strong>Rs1000</strong>                            to <strong>Rs50,000</strong>
                         </p>
                         <h5 class="teal-color">HOW MUCH MONEY DO YOU NEED?</h5>
-                        <h3 class="white-color">30,000</h3>
+                        <div class="ranger-wrapper" id="money-ranger">
+                            <img src="assets/images/minus.png" class="ranger-range-btn minus money-btn">
+                            <input type="range" id="money_range" class="ranger" data-highlight="true" min="1000" max="30000" value="10000" step="500">
+                            <img src="assets/images/plus.png" class="ranger-range-btn plus money-btn">
+                        </div>
+                        <h3 class="white-color money_value">10000</h3>
                         <h5 class="teal-color">HOW LONG DO YOU NEED?</h5>
-                        <h3 class="white-color days">10 Days <small class="text-muted">(27/08/2017)</small></h3>
+                        <div class="ranger-wrapper" id="days-ranger">
+                            <img src="assets/images/minus.png" class="ranger-range-btn minus date-btn">
+                            <input type="range" id="date_range" class="ranger" data-highlight="true" min="1" max="30" value="10">
+                            <img src="assets/images/plus.png" class="ranger-range-btn plus date-btn">
+                        </div>
+                        <h3 class="white-color days">
+                            <span id="days_value">10</span> Days 
+                            <small class="text-muted">(
+                                <span id="date_value"></span>
+                            )</small>
+                        </h3>
                         <br>
                         <table class="table">
                             <tbody>
@@ -81,7 +97,7 @@
                                 </tr>
                                 <tr>
                                     <td scope="row">
-                                        <h4 class="white-color">30,000</h4>
+                                        <h4 class="white-color money_value">30000</h4>
                                     </td>
                                     <td>
                                         <h4 class="white-color">+</h4>
@@ -245,6 +261,8 @@
         crossorigin="anonymous"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.min.js"></script>
+    <script src="assets/vendors/rangeslider.js-2.3.0/rangeslider.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
     <!-- Optional JavaScript -->
     <script src="assets/js/app.js"></script>
 

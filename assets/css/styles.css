@@ -1,3 +1,6 @@
+.navbar-brand{
+    margin-top: -7px;
+}
 .navbar-nav{
     margin: 0 auto;
 }
@@ -111,9 +114,6 @@
     background: url(../images/hero.png) no-repeat;
     background-size: cover;
 }
-.calculation-wrapper{
-    padding: 20px;
-}
 .calculation-wrapper table{
     width: 450px;
     margin: 1rem auto;
@@ -219,6 +219,44 @@
     top:189px;
     background: #1BADBD;
 }
+.rangeslider__fill{
+    background: #46F2CF
+}
+.rangeslider--horizontal .rangeslider__handle{
+    background: transparent;
+    border: 0px;
+    box-shadow: none !important;
+    width: 31px;
+    height: 29px;
+}
+.rangeslider__handle:active, .rangeslider--active .rangeslider__handle{
+    background: transparent;
+}
+.rangeslider__handle:after{
+    background: url(../images/slider_head.png);
+    width: 31px;
+    height: 29px;
+    left: -5px;
+}
+.ranger-wrapper{
+    margin: 30px 0px;
+    position: relative;
+}
+.ranger-wrapper img{
+    position: absolute;
+    top: -7px;
+    cursor: pointer;
+    z-index: 1;
+}
+.rangeslider--horizontal{
+    height: 10px;
+}
+.ranger-wrapper .minus{
+    left: -35px;
+}
+.ranger-wrapper .plus{
+    right: -35px;
+}
 @media only screen and (max-width: 1000px) {
     .navbar-toggler{
         position: absolute;
@@ -239,7 +277,7 @@
         display: none;
     }
     .calculation-wrapper{
-        padding: 10px;
+        padding: 20px;
     }
     .calculation-wrapper table{
         width: 282px;
@@ -265,6 +303,10 @@
     .nav-item.active{
         border-bottom: 2px solid #1BADBD;
     }
+    .ranger-wrapper{
+        width: 90%;
+        margin: 30px auto;
+    }
 }
 @media only screen and (min-width: 1000px) {
     
@@ -278,5 +320,10 @@
         float: right;
         margin-top: -80px;
         margin-right: 50px;
+    }
+    .calculation-wrapper{
+        padding: 20px;
+        width: 500px;
+        margin: 0 auto;
     }
 }
