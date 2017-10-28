@@ -113,6 +113,13 @@ body{
     border:0px;
     padding: 0px;
 }
+.user-icon{
+    margin-top: -3px;
+    margin-right: 3px;
+}
+.dropdown-icon{
+    margin-left: 3px;
+}
 .btn{
     box-shadow: none !important;
     outline: none !important;
@@ -489,6 +496,9 @@ body{
         position: absolute;
         left: 0px;
         margin: 3px;
+    }
+    .user-box{
+        display: none;
     }
     .navbar {
         text-align: center;
