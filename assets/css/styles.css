@@ -436,21 +436,21 @@ body{
       background: #89C261;
       padding: 50px 0;
   }
-  .contat-us-section .left-box{
+  .contact-us-section .left-box{
       background: #1BADBD;
       min-height: 440px;
   }
-  .contat-us-section .banner{
+  .contact-us-section .banner{
     font-size: 58px;
     top: 40px;
     left: 0px;
     margin-left: 15%;
   }
-  .contat-us-section .banner-1{
+  .contact-us-section .banner-1{
     background: #fff;
     color:#1BADBD;
   }
-  .contat-us-section .banner-2{
+  .contact-us-section .banner-2{
     background: #89C261;
     color:#fff;
     top: 87px;
@@ -468,20 +468,20 @@ body{
     width: 100% !important;
     height: 100% !important;
 }
-.contat-us-section .phone-support{
+.contact-us-section .phone-support{
     border-bottom: 1px solid #239EAB;
 }
 .email-support a{
     color: #fff !important;
 }
 
-.contat-us-section .support {
+.contact-us-section .support {
     position: relative;
     margin-top: 270px;
     margin-left: 15%;
     width: 80%;
 }
-.contat-us-section .email-support{
+.contact-us-section .email-support{
     margin-top: 15px;
 }
 @media only screen and (max-width: 1000px) {
@@ -497,23 +497,23 @@ body{
     .about-hero-bg{
         min-height: 350px;
     }
-    .contat-us-section .banner{
+    .contact-us-section .banner{
         font-size: 40px;
         top:40px !important;
     }
-    .contat-us-section .banner-2{
+    .contact-us-section .banner-2{
         top:60px !important;
     }
     .banner-container .banner{
         margin-left: 20px;
         top: 80px;
     }
-    .contat-us-section .support{
+    .contact-us-section .support{
         margin-top: 180px;
         width: 85%;
         margin-left: 20px;
     }
-    .contat-us-section .email-support{
+    .contact-us-section .email-support{
         margin-top: 15px;
     }
     .about-box-heading{
