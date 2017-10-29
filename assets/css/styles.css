@@ -243,8 +243,8 @@ body{
     margin-right: 15px;
 }
 .how-it-works .image-desc{
-    position: relative;
-    top:35px;
+    font-size: 22px;
+    margin-top: 20px;
     font-size: 22px;
 }
 .banner-container .banner{
@@ -490,6 +490,9 @@ body{
 }
 .contact-us-section .email-support{
     margin-top: 15px;
+}
+.how-it-works .row{
+    min-height: 300px;
 }
 @media only screen and (max-width: 1000px) {
     .navbar-toggler{
