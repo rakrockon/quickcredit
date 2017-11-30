@@ -47,7 +47,7 @@ body{
 .navbar-toggler{
     outline: none !important;
 }
-.card {
+.testimonials .card {
     margin: 0 10px;
     background-color: #208A96;
 }
@@ -494,6 +494,17 @@ body{
 .how-it-works .row{
     min-height: 300px;
 }
+.dashboard-section{
+    background: #89C261;
+}
+.dashboard-section .card-head{ 
+    background-color: #F3FCFC;
+}
+.dashboard-section form{
+    color: #fff;
+}
+
+
 @media only screen and (max-width: 1000px) {
     .navbar-toggler{
         position: absolute;
