@@ -32,12 +32,12 @@ body{
     padding-bottom: 0px;
     border-bottom: 1px solid #ccc;
 }
-.nav-item{
+.navbar .nav-item{
     margin: 0 25px;
     font-weight: 600;
     padding-bottom: 10px;
 }
-.nav-item.active{
+.navbar .nav-item.active{
     border-bottom: 7px solid #1BADBD;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
@@ -495,16 +495,30 @@ body{
     min-height: 300px;
 }
 .dashboard-section{
-    background: #89C261;
-}
-.dashboard-section .card-head{ 
     background-color: #F3FCFC;
 }
-.dashboard-section form{
+.dashboard-section .card-head{ 
+    background: #89C261;
     color: #fff;
 }
-
-
+.dashboard-section form{
+    color:#456265;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-weight: bold;
+    color: #1BADBD;
+    border-color: #ddd #ddd #F3FCFC;
+}
+.nav-tabs .nav-link{
+    color: rgba(0,0,0,.5);
+    font-weight: bold;
+}
+ .nav-tabs .nav-link:hover {
+    color: rgba(0,0,0,.7);
+}
+.tabbed-section .tab-content{
+    background: #fff;
+}
 @media only screen and (max-width: 1000px) {
     .navbar-toggler{
         position: absolute;
@@ -575,14 +589,14 @@ body{
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    .nav-item{
+    .navbar .nav-item{
         margin: 0 25px;
         font-weight: 600;
         padding-bottom: 0px;
         width: 140px !important;
         margin: 0 auto;
     }
-    .nav-item.active{
+    .navbar .nav-item.active{
         border-bottom: 2px solid #1BADBD;
     }
     .ranger-wrapper{
