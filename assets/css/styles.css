@@ -109,7 +109,8 @@ body{
 .light-blue-color{
     color:#00B0C0;
 }
-.table td, .table th {
+
+.calculation-wrapper .table td,.calculation-wrapper .table th {
     border:0px;
     padding: 0px;
 }
@@ -497,7 +498,7 @@ body{
 .dashboard-section{
     background-color: #F3FCFC;
 }
-.dashboard-section .card-head{ 
+.head-card{ 
     background: #89C261;
     color: #fff;
 }
