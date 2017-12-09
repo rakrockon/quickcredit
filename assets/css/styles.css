@@ -95,6 +95,9 @@ body{
     max-width: 1366px;
     margin: 65px auto;
 }
+.login-container{
+    color:#456265; 
+}
 .how-it-works .col{
 }
 .how-it-works .image-wrapper{
@@ -364,6 +367,12 @@ body{
 .how-it-works-video-section{
     padding: 30px 100px;
 }
+.faq-section{
+    background: #88C260;
+}
+.faq-section h3{
+    color:#fff;
+}
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -520,6 +529,19 @@ body{
 .tabbed-section .tab-content{
     background: #fff;
 }
+a{
+    color: #36B3C2;
+}
+a:hover{
+    color: #36B3C2;
+    text-decoration:underline;
+}
+.login-container form img{
+    cursor: pointer;
+} 
+.register-form{
+    display: none;
+}
 @media only screen and (max-width: 1000px) {
     .navbar-toggler{
         position: absolute;
@@ -604,7 +626,7 @@ body{
         width: 90%;
         margin: 30px auto;
     }
-    .how-it-works-section-2 .left-box, .how-it-works-section-2 .right-box{
+    .how-it-works-section-2 .left-box, .how-it-works-section-2 .right-box,.faq-section{
         padding: 30px 20px;
     }
     .how-it-works-section-1 .left-box, .how-it-works-section-1 .right-box{
@@ -656,7 +678,7 @@ body{
     .how-it-works-section-1 .left-box{
         border-right: 1px solid #ccc;
     }
-    .how-it-works-section-2 .left-box, .how-it-works-section-2 .right-box{
+    .how-it-works-section-2 .left-box, .how-it-works-section-2 .right-box,.faq-section{
         padding: 30px 100px;
     }
     .about-us-section-1 .container-fluid > .row{
