@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="assets/images/logo.png">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="how it works.html">HOW IT WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about us.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partners.html">PARTNER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact us.html">CONTACT US</a>
+                </li>
+            </ul>
+            <h5 class="user-box">
+                <img class="img-fluid user-icon" src="assets/images/User_topbar.png"> John Doe
+                <img class="img-fluid dropdown-icon" src="assets/images/dropdown.png">
+            </h5>
+
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main>
+            <section class="row dashboard-section tabbed-section">
+                <div class="col-12">
+                    <div class="card mt-3 mb-2 card-head container">
+                        <div class="card-body">
+                            <div class="float-left">
+                                <h4 class="card-title mb-1">Akhil Kumar</h4>
+                                <p class="card-subtitle">(Standard)</p>
+                                <p class="card-location">9000549922</p>
+                            </div>
+                            <div class="float-right text-right">
+                                <h4 class="teal-color">Welcome to your QuickCredit.in Account</h4>
+                                <p>Your QuickCredit.in ID: QC00007</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs container" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="Personal-tab" data-toggle="tab" href="#Personal" role="tab" aria-controls="Personal" aria-selected="true">Personal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Professional-tab" data-toggle="tab" href="#Professional" role="tab" aria-controls="Professional"
+                                aria-selected="false">Professional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Documents-tab" data-toggle="tab" href="#Documents" role="tab" aria-controls="Documents" aria-selected="false">Documents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Bank-Information-tab" data-toggle="tab" href="#Bank-Information" role="tab" aria-controls="Bank Information"
+                                aria-selected="false">Bank Information</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="Validation-tab" data-toggle="tab" href="#Validation" role="tab" aria-controls="Validation" aria-selected="false">Validation</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content container p-3 border border-top-0 mb-3" id="myTabContent">
+                        <div class="tab-pane fade show active" id="Personal" role="tabpanel" aria-labelledby="home-tab">
+                            <form class="container mt-2 mb-2" id="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Name" value="Akhil Kumar" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" class="form-control" id="" placeholder="Email" value="akhilkumargnd@gmail.com" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Alternate Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Alternate Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">DOB</label>
+                                        <input type="text" class="form-control" id="" placeholder="DOB" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid DOB.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">PAN</label>
+                                        <input type="text" class="form-control" id="" placeholder="PAN" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid PAN.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Gurgaon">Gurgaon</option>
+                                            <option selected="" value="Hyderabad">Hyderabad</option>
+                                            <option value="Indore">Indore</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Nagpur">Nagpur</option>
+                                            <option value="New Delhi">New Delhi</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                            <option value="Visakhapatnam">Visakhapatnam</option>
+                                            <option value="Warangal">Warangal</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid City.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Secondary Email</label>
+                                        <input type="text" class="form-control" id="" placeholder="Secondary Email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Secondary Email.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Company Name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">CTC (Annual Income)</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="1">1 Lakh</option>
+                                            <option value="2">2 Lakh</option>
+                                            <option value="3">3 Lakh</option>
+                                            <option value="4">4 Lakh</option>
+                                            <option selected="" value="5">5 Lakh</option>
+                                            <option value="6">6 Lakh</option>
+                                            <option value="7">7 Lakh</option>
+                                            <option value="8">8 Lakh</option>
+                                            <option value="9">9 Lakh</option>
+                                            <option value="10">10 Lakh</option>
+                                            <option value="10+"> &gt; 10 Lakh</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a CTC.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Department</label>
+                                        <input type="text" class="form-control" id="" placeholder="Department" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Department.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Designation</label>
+                                        <input type="text" class="form-control" id="" placeholder="Designation" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Designation.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Present Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Present Address.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Address.
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="Professional" role="tabpanel" aria-labelledby="Professional-tab">
+                            <form class="container mt-2 mb-2" id="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Name" value="Akhil Kumar" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" class="form-control" id="" placeholder="Email" value="akhilkumargnd@gmail.com" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Alternate Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Alternate Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">DOB</label>
+                                        <input type="text" class="form-control" id="" placeholder="DOB" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid DOB.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">PAN</label>
+                                        <input type="text" class="form-control" id="" placeholder="PAN" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid PAN.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Gurgaon">Gurgaon</option>
+                                            <option selected="" value="Hyderabad">Hyderabad</option>
+                                            <option value="Indore">Indore</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Nagpur">Nagpur</option>
+                                            <option value="New Delhi">New Delhi</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                            <option value="Visakhapatnam">Visakhapatnam</option>
+                                            <option value="Warangal">Warangal</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid City.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Secondary Email</label>
+                                        <input type="text" class="form-control" id="" placeholder="Secondary Email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Secondary Email.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Company Name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">CTC (Annual Income)</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="1">1 Lakh</option>
+                                            <option value="2">2 Lakh</option>
+                                            <option value="3">3 Lakh</option>
+                                            <option value="4">4 Lakh</option>
+                                            <option selected="" value="5">5 Lakh</option>
+                                            <option value="6">6 Lakh</option>
+                                            <option value="7">7 Lakh</option>
+                                            <option value="8">8 Lakh</option>
+                                            <option value="9">9 Lakh</option>
+                                            <option value="10">10 Lakh</option>
+                                            <option value="10+"> &gt; 10 Lakh</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a CTC.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Department</label>
+                                        <input type="text" class="form-control" id="" placeholder="Department" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Department.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Designation</label>
+                                        <input type="text" class="form-control" id="" placeholder="Designation" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Designation.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Present Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Present Address.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Address.
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="Documents" role="tabpanel" aria-labelledby="Documents-tab">
+                            <form class="container mt-2 mb-2" id="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Name" value="Akhil Kumar" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" class="form-control" id="" placeholder="Email" value="akhilkumargnd@gmail.com" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Alternate Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Alternate Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">DOB</label>
+                                        <input type="text" class="form-control" id="" placeholder="DOB" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid DOB.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">PAN</label>
+                                        <input type="text" class="form-control" id="" placeholder="PAN" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid PAN.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Gurgaon">Gurgaon</option>
+                                            <option selected="" value="Hyderabad">Hyderabad</option>
+                                            <option value="Indore">Indore</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Nagpur">Nagpur</option>
+                                            <option value="New Delhi">New Delhi</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                            <option value="Visakhapatnam">Visakhapatnam</option>
+                                            <option value="Warangal">Warangal</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid City.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Secondary Email</label>
+                                        <input type="text" class="form-control" id="" placeholder="Secondary Email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Secondary Email.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Company Name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">CTC (Annual Income)</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="1">1 Lakh</option>
+                                            <option value="2">2 Lakh</option>
+                                            <option value="3">3 Lakh</option>
+                                            <option value="4">4 Lakh</option>
+                                            <option selected="" value="5">5 Lakh</option>
+                                            <option value="6">6 Lakh</option>
+                                            <option value="7">7 Lakh</option>
+                                            <option value="8">8 Lakh</option>
+                                            <option value="9">9 Lakh</option>
+                                            <option value="10">10 Lakh</option>
+                                            <option value="10+"> &gt; 10 Lakh</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a CTC.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Department</label>
+                                        <input type="text" class="form-control" id="" placeholder="Department" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Department.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Designation</label>
+                                        <input type="text" class="form-control" id="" placeholder="Designation" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Designation.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Present Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Present Address.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Address.
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="Bank-Information" role="tabpanel" aria-labelledby="Bank-Information-tab">
+                            <form class="container mt-2 mb-2" id="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Name" value="Akhil Kumar" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" class="form-control" id="" placeholder="Email" value="akhilkumargnd@gmail.com" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Alternate Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Alternate Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">DOB</label>
+                                        <input type="text" class="form-control" id="" placeholder="DOB" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid DOB.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">PAN</label>
+                                        <input type="text" class="form-control" id="" placeholder="PAN" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid PAN.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Gurgaon">Gurgaon</option>
+                                            <option selected="" value="Hyderabad">Hyderabad</option>
+                                            <option value="Indore">Indore</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Nagpur">Nagpur</option>
+                                            <option value="New Delhi">New Delhi</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                            <option value="Visakhapatnam">Visakhapatnam</option>
+                                            <option value="Warangal">Warangal</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid City.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Secondary Email</label>
+                                        <input type="text" class="form-control" id="" placeholder="Secondary Email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Secondary Email.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Company Name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">CTC (Annual Income)</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="1">1 Lakh</option>
+                                            <option value="2">2 Lakh</option>
+                                            <option value="3">3 Lakh</option>
+                                            <option value="4">4 Lakh</option>
+                                            <option selected="" value="5">5 Lakh</option>
+                                            <option value="6">6 Lakh</option>
+                                            <option value="7">7 Lakh</option>
+                                            <option value="8">8 Lakh</option>
+                                            <option value="9">9 Lakh</option>
+                                            <option value="10">10 Lakh</option>
+                                            <option value="10+"> &gt; 10 Lakh</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a CTC.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Department</label>
+                                        <input type="text" class="form-control" id="" placeholder="Department" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Department.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Designation</label>
+                                        <input type="text" class="form-control" id="" placeholder="Designation" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Designation.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Present Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Present Address.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Address.
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="Validation" role="tabpanel" aria-labelledby="Validation-tab">
+                            <form class="container mt-2 mb-2" id="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Name" value="Akhil Kumar" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Email</label>
+                                        <input type="email" class="form-control" id="" placeholder="Email" value="akhilkumargnd@gmail.com" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Alternate Mobile</label>
+                                        <input type="text" class="form-control" id="" placeholder="Alternate Mobile" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid mobile number.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">DOB</label>
+                                        <input type="text" class="form-control" id="" placeholder="DOB" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid DOB.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">PAN</label>
+                                        <input type="text" class="form-control" id="" placeholder="PAN" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid PAN.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">City</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="">Select</option>
+                                            <option value="Ahmedabad">Ahmedabad</option>
+                                            <option value="Bangalore">Bangalore</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Gurgaon">Gurgaon</option>
+                                            <option selected="" value="Hyderabad">Hyderabad</option>
+                                            <option value="Indore">Indore</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Nagpur">Nagpur</option>
+                                            <option value="New Delhi">New Delhi</option>
+                                            <option value="Pune">Pune</option>
+                                            <option value="Surat">Surat</option>
+                                            <option value="Vadodara">Vadodara</option>
+                                            <option value="Visakhapatnam">Visakhapatnam</option>
+                                            <option value="Warangal">Warangal</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid City.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Secondary Email</label>
+                                        <input type="text" class="form-control" id="" placeholder="Secondary Email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Secondary Email.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Name</label>
+                                        <input type="text" class="form-control" id="" placeholder="Company Name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">CTC (Annual Income)</label>
+                                        <select id="" class="form-control" required>
+                                            <option value="1">1 Lakh</option>
+                                            <option value="2">2 Lakh</option>
+                                            <option value="3">3 Lakh</option>
+                                            <option value="4">4 Lakh</option>
+                                            <option selected="" value="5">5 Lakh</option>
+                                            <option value="6">6 Lakh</option>
+                                            <option value="7">7 Lakh</option>
+                                            <option value="8">8 Lakh</option>
+                                            <option value="9">9 Lakh</option>
+                                            <option value="10">10 Lakh</option>
+                                            <option value="10+"> &gt; 10 Lakh</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please provide a CTC.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Department</label>
+                                        <input type="text" class="form-control" id="" placeholder="Department" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Department.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Designation</label>
+                                        <input type="text" class="form-control" id="" placeholder="Designation" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Designation.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Present Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Present Address.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="">Company Address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Present Address" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid Company Address.
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-wrapper row">
+                <div class="footer-1 col-12 col-md-6">
+                    <a href="#" class="d-inline-block">Terms and Conditions</a>
+                    <a href="#" class="d-inline-block">Privacy and Security Policy</a>
+                    <a class="d-inline-block" href="faq.html">FAQs</a>
+                </div>
+            <div class="social-container col-12 col-md-3">
+                <img class="img-fluid" src="assets/images/FB_1x.png">
+                <img class="img-fluid" src="assets/images/twitter_1x.png">
+                <img class="img-fluid" src="assets/images/linkedin_1x.png">
+                <img class="img-fluid" src="assets/images/G__1x.png">
+                <img class="img-fluid" src="assets/images/Youtube_1x.png">
+            </div>
+            <div class="w-100"></div>
+            <div class="footer-2 white-color col-12">
+                <p>&copy;quickcredit.in is trade name owned by GAK E Solution Pvt.Ltd. All Rights Reserverd</p>
+            </div>
+            <div class="footer-apps pull-right">
+                <img src="assets/images/play.png">
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="assets/js/dashboard.js"></script>
+
+</body>
+
+</html>

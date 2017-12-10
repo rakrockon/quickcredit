@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.1/rangeslider.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="assets/images/logo.png">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="how it works.html">HOW IT WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about us.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partners.html">PARTNER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact us.html">CONTACT US</a>
+                </li>
+            </ul>
+            <h5 class="user-box">
+                <img class="img-fluid user-icon" src="assets/images/User_topbar.png"> John Doe
+                <img class="img-fluid dropdown-icon" src="assets/images/dropdown.png">
+            </h5>
+
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main>
+            <section class="row section-1 banner-container">
+                <div class="col-12 hero-bg">
+                    <div class="banner row">
+                        <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                            <h1 class="color-1">GET YOUR</h1>
+                            <h1 class="color-2">YOUR LOAN</h1>
+                            <h1 class="color-3">MINUTES</h1>
+                            <button type="button" class="btn btn-secondary mt-3 mb-5">APPLY</button>
+                            <p class="white-color">
+                                An online P2P lending marketplace that helps borrowers avail instant, short-term cash loans ranging from
+                                <strong>Rs1000</strong> to
+                                <strong>Rs50,000</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-block d-lg-block main-hero-img">
+                        <img src="assets/images/hero_person_image.png">
+                    </div>
+                    <div class="clock-images d-none d-xl-block">
+                        <img src="assets/images/clock_image.png">
+                    </div>
+                </div>
+                <div class="col-12 calculation-wrapper">
+                    <h3 class="heading-1 mt-3">
+                        KNOW ABOUT
+                    </h3>
+                    <h3 class="heading-2">
+                        YOUR LOAN
+                    </h3>
+                    <h5 class="teal-color mt-4 mb-4">How much money do you need?</h5>
+                    <div class="ranger-wrapper" id="money-ranger">
+                        <input type="range" id="money_range" class="ranger" data-highlight="true" min="1000" max="30000" value="10000" step="500">
+                    </div>
+                    <h3 class="white-color money_value">10000</h3>
+                    <h5 class="teal-color mt-5 mb-4">How long do you need?</h5>
+                    <div class="ranger-wrapper" id="days-ranger">
+                        <input type="range" id="date_range" class="ranger" data-highlight="true" min="1" max="30" value="10">
+                    </div>
+                    <h3 class="white-color days">
+                        <span id="days_value">10</span> Days
+                    </h3>
+                    <br>
+                    <div class="table-container pt-2 mt-4">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td scope="row">
+                                        <h5>BORROW AMT</h5>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>INTEREST & FEE</h5>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <h5>TOTAL</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">
+                                        <h4 class="money_value">30000</h4>
+                                    </td>
+                                    <td>
+                                        <h4>+</h4>
+                                    </td>
+                                    <td>
+                                        <h4>2,250</h4>
+                                    </td>
+                                    <td>
+                                        <h4>=</h4>
+                                    </td>
+                                    <td>
+                                        <h4>32,250</h4>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <button type="button" class="btn btn-primary mt-2 mb-2">APPLY</button>
+                </div>
+            </section>
+            <section class="row number-container">
+                <div class="snapshot-details container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-xl-8 numbers">
+                            <div class="row">
+                                <div class="col-6 col-md-4">
+                                    <img class="img-fluid" src="assets/images/visitors_1x.png">
+                                    <p>Visitors</p>
+                                    <h4 class="white-color">111380</h4>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <img class="img-fluid" src="assets/images/borrowers_1x.png">
+                                    <p>Borrowers</p>
+                                    <h4 class="white-color">18800</h4>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <img class="img-fluid" src="assets/images/LoanDisbursed_1x.png">
+                                    <p>Loans Disbured</p>
+                                    <h4 class="white-color">117864500</h4>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <img class="img-fluid" src="assets/images/lenders_1x.png">
+                                    <p>Lenders</p>
+                                    <h4 class="white-color">10</h4>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <img class="img-fluid" src="assets/images/AVGDISbAMNT_1x.png">
+                                    <p>Avg Disb Amt</p>
+                                    <h4 class="white-color">20000</h4>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <img class="img-fluid" src="assets/images/AvgDisbTime_1x.png">
+                                    <p>Avg Disb Time</p>
+                                    <h4 class="white-color">5 min</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row section-2">
+                <div class="how-it-works container-fluid text-center">
+                    <div class="container">
+                        <h2 class="margin-bottom-45 text-left">HOW IT WORKS</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/simple_registration.png">
+                            </div>
+                            <h6 class="image-desc">Simple Registration</h6>
+                        </div>
+                        <div class="col">
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/quick_verification.png">
+                            </div>
+                            <h6 class="image-desc">Quick Verification</h6>
+                        </div>
+                        <div class="col">
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/instant_fund_transfer.png">
+                            </div>
+                            <h6 class="image-desc">Instant Fund Transfer</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row about-us-container">
+                <div class="col">
+                    <h2>ABOUT US</h2>
+                    <p>We are an online peer-to-peer (P2P) marketplace lending platform in India that provides borrowers instant,
+                        flexible, short-term cash loans without needing any hectic paperwork and security. We provide investors
+                        a platform to invest in cash loans thereby catering to the needs of the borrowers as well as earning
+                        higher returns. </p>
+                    <div class="row mt-5">
+                        <div class="col-4 d-none d-lg-block">
+                            <img class="about-us-img" src="assets/images/about us_image.png">
+                        </div>
+                        <div class="col-6 col-lg-4 mt-5">
+                            <h5 class="mt-5">USP</h5>
+                            <p>We have realized that there is an unfilled gap in the market catering to borrowers seeking instant
+                                cash loans. At QuickCredit.in, we are striving to get the red tape out of the entire process
+                                of availing credit. So, a Simple One-Time Registration is followed by a Quick Verification/Approval
+                                and Instant Fund Transfer</p>
+                        </div>
+                        <div class="col-6 col-lg-4 mt-5">
+                            <h5 class="mt-5">Mission and Vision</h5>
+                            <p>To be a reliable platform for all genuine borrowers & investors, to help people solve their temporary
+                                troubles by offering small, short-term money instantly in a simple, quick and flexible way,
+                                to be a de facto platform for instant money when people need it the most.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row contact-us-section white-color">
+                <div class="col-12 col-lg-4 p-0 banner-container left-box">
+                    <div class="banner">
+                        <h2 class="mt-5">CONTACT US</h2>
+                    </div>
+                    <div class="support phone-support">
+                        <h6 class="h6-heading">Phone Support</h6>
+                        <div>
+                            <p>Customer Service:
+                                <b>040 48509030</b>
+                            </p>
+                            <p>Working Hours:
+                                <b>Mon-Sat (10-7pm)</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="support email-support">
+                        <h6 class="h6-heading">Email Support</h6>
+                        <div>
+                            <p>
+                                <a href="mailto:info@quickcredit.in" target="_top">info@quickcredit.in</a>
+                            </p>
+                            <p>
+                                <a href="mailto:support@quickcredit.in" target="_top">support@quickcredit.in</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8 p-0">
+                    <div class="google-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121784.95251564034!2d78.2489635409802!3d17.47025201571601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90d56b47b607%3A0xea6e72e0ed8e2b06!2sG2K+IT+Solutions+Pvt.+Ltd.%2C!5e0!3m2!1sen!2sin!4v1509206254924"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+            <section class="row section-3">
+                <div class="testimonials container-fluid text-center">
+                    <div class="container">
+                        <h2 class="white-color margin-bottom-45 text-left">TESTIMONIALS</h2>
+                    </div>
+                    <div class="slider-wrapper">
+                        <div class="jslick-slider">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main card-main-alternate">
+                                        <h2 class="card-title ">Shridhar</h2>
+                                        <p class="card-subtitle mb-2 text-muted">UX Designer (Kony)</p>
+                                        <p class="card-location mb-2 text-muted">Hyderabad</p>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main">
+                                        <h2 class="card-title">Adnand</h2>
+                                        <p class="card-subtitle mb-2 text-muted">UX Designer (Kony)</p>
+                                        <p class="card-location mb-2 text-muted">Hyderabad</p>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main card-main-alternate">
+                                        <h2 class="card-title">Shiva</h2>
+                                        <p class="card-subtitle mb-2 text-muted">UX Designer (Kony)</p>
+                                        <p class="card-location mb-2 text-muted">Hyderabad</p>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main">
+                                        <h2 class="card-title">Manas</h2>
+                                        <p class="card-subtitle mb-2 text-muted">UX Designer (Kony)</p>
+                                        <p class="card-location mb-2 text-muted">Hyderabad</p>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-main card-main-alternate">
+                                        <h2 class="card-title">jake</h2>
+                                        <p class="card-subtitle mb-2 text-muted">UX Designer (Kony)</p>
+                                        <p class="card-location mb-2 text-muted">Hyderabad</p>
+                                    </div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-wrapper row">
+            <div class="footer-1 col-12 col-md-6">
+                <a href="#" class="d-inline-block">Terms and Conditions</a>
+                <a href="#" class="d-inline-block">Privacy and Security Policy</a>
+                <a class="d-inline-block" href="faq.html">FAQs</a>
+            </div>
+            <div class="social-container col-12 col-md-3">
+                <img class="img-fluid" src="assets/images/FB_1x.png">
+                <img class="img-fluid" src="assets/images/twitter_1x.png">
+                <img class="img-fluid" src="assets/images/linkedin_1x.png">
+                <img class="img-fluid" src="assets/images/G__1x.png">
+                <img class="img-fluid" src="assets/images/Youtube_1x.png">
+            </div>
+            <div class="w-100"></div>
+            <div class="footer-2 white-color col-12">
+                <p>&copy;quickcredit.in is trade name owned by GAK E Solution Pvt.Ltd. All Rights Reserverd</p>
+            </div>
+            <div class="footer-apps pull-right">
+                <img src="assets/images/play.png">
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.7.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.1/rangeslider.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <!-- Optional JavaScript -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
